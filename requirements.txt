@@ -1,0 +1,7 @@
+streamlit>=1.40
+pandas>=2.0
+plotly>=5.20
+reportlab>=4.0
+tzdata
+# Optional: LLM-drafted summaries (also set ANTHROPIC_API_KEY in secrets)
+# anthropic>=0.40

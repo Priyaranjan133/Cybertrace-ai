@@ -1,0 +1,50 @@
+From: "PayPal Security" <security@paypa1-support.example>
+To: alice@acme-corp.example
+Reply-To: collect@mailbox-drop.example
+Return-Path: <bounce@mailer.paypa1-support.example>
+Subject: URGENT: Verify your account within 24 hours
+Date: Mon, 12 Oct 2026 02:41:07 +0000
+Message-ID: <20261012024107.1A2B3C@paypa1-support.example>
+Authentication-Results: mx.acme-corp.example; spf=fail
+ smtp.mailfrom=paypa1-support.example; dkim=none; dmarc=fail
+ header.from=paypa1-support.example
+Received: from mail.acme-corp.example (mx1.acme-corp.example [192.0.2.10]) by
+ mx.acme-corp.example with ESMTP; Mon, 12 Oct 2026 02:41:12 +0000
+Received: from unknown-host ([203.0.113.45]) by mail.acme-corp.example with
+ SMTP; Mon, 12 Oct 2026 02:41:09 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1976391353695499892=="
+
+--===============1976391353695499892==
+Content-Type: multipart/alternative;
+ boundary="===============8241736718761976785=="
+
+--===============8241736718761976785==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your account has been suspended due to unusual activity. Verify your account =
+immediately: http://203.0.113.45/login.php
+
+--===============8241736718761976785==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Dear customer,</p><p>Your account has been <b>suspended</b> du=
+e to unusual activity. Act now - <a href=3D'http://203.0.113.45/login.php'>ht=
+tps://www.paypal.com/verify</a></p><p>Invoice attached for your records.</p><=
+/body></html>
+
+--===============8241736718761976785==--
+
+--===============1976391353695499892==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_8841.pdf.exe"
+MIME-Version: 1.0
+
+TVoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAARFVNTVkgRklMRSBGT1IgREVNTyAtIE5PIENPREU=
+
+--===============1976391353695499892==--
